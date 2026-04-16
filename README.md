@@ -1,26 +1,26 @@
-# 💪 PowerFit Gym Website
+#  PowerFit Gym Website
 
 A modern and responsive gym website designed to promote **PowerFit Gym (Surampalem)**.
 This project showcases workout plans, AI-based ad concepts, and engaging UI to attract students and beginners.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🔥 Modern dark-themed UI design
-* 📱 Fully responsive (mobile + desktop)
-* 🎬 AI video ad section with hooks
-* 🏋️ Workout plans for beginners
-* 📊 Gym services and benefits section
-* 🎯 Call-to-action for user engagement
-
-
-
-👉 https://Jagadeesh341.github.io/Task-1-AI_web_copy_generator/
+*  Modern dark-themed UI design
+*  Fully responsive (mobile + desktop)
+*  AI video ad section with hooks
+*  Workout plans for beginners
+*  Gym services and benefits section
+*  Call-to-action for user engagement
 
 
 
-## 🎯 Purpose of the Project
+https://Jagadeesh341.github.io/Task-1-AI_web_copy_generator/
+
+
+
+##  Purpose of the Project
 
 This project is created to:
 
@@ -30,7 +30,7 @@ This project is created to:
 * Showcase AI-based marketing ideas
 
 
-## 🧠 Key Highlights
+##  Key Highlights
 
 * Beginner-friendly workout content
 * UGC (User Generated Content) marketing scripts
@@ -39,7 +39,7 @@ This project is created to:
 
 ---
 
-## 📢 Call to Action
+## 📢Call to Action
 
 👉 Join PowerFit Gym today
 👉 Start your fitness transformation
