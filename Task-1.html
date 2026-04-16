@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowerFit Gym</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* HERO */
+header {
+    background: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* BUTTON */
+.btn {
+    background: #ff4d00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#why">Why Us</a>
+    <a href="#services">Services</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<header id="home">
+    <h1>PowerFit Gym</h1>
+    <p>Transform Your Body. Build Your Real Strength</p>
+    <p>Join PowerFit Gym in Surampalem — a friendly fitness space with expert trainers and real results.</p>
+    <a href="#services" class="btn">View Services</a>
+    <a href="#contact" class="btn">Join Now</a>
+</header>
+
+<!-- WHY -->
+<section id="why">
+    <h2>Why Choose Us</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80">
+            <p>Certified Trainers</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80">
+            <p>Modern Equipment</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=800&q=80">
+            <p>Affordable Plans</p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=800&q=80">
+            <h3>Open Gym</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80">
+            <h3>Strength Training</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80">
+            <h3>Weight Loss</h3>
+        </div>
+    </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+    <h2>Results</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?auto=format&fit=crop&w=800&q=80">
+            <p>Fat Loss</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?auto=format&fit=crop&w=800&q=80">
+            <p>Muscle Gain</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=800&q=80">
+            <p>Confidence</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="text-align:center;">
+    <h2>Join Now</h2>
+    <p>Start your fitness journey today</p>
+
+    <p><strong>📍 Address:</strong> PowerFit Gym, Near College Road, Surampalem, Andhra Pradesh</p>
+    <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+    <p><strong>📧 Email:</strong> powerfitgym@gmail.com</p>
+
+    <a href="#" class="btn">Book Free Trial</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 PowerFit Gym | Surampalem, Andhra Pradesh</p>
+</footer>
+
+</body>
+</html>
